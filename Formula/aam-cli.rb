@@ -26,7 +26,7 @@ class AamCli < Formula
   end
 
   def install
-    binary_name = OS.mac? ? (Hardware::CPU.arm? ? "aam-cli-macos-arm64" : "aam-cli-macos-amd64") : "aam-cli-linux-amd64"
+    binary_name = OS.mac? ? (Hardware::CPU.arm? ? "aam-macos-arm64" : "aam-macos-amd64") : "aam-linux-amd64"
 
     bin.install binary_name => "aam"
   end
