@@ -4,7 +4,7 @@
 # License, v. 2.0. If a copy of the MPL was not distributed with this
 # file, You can obtain one at http://mozilla.org/MPL/2.0/.
 
-class Aam < Formula
+class AamCli < Formula
   desc "Powerful and intuitive CLI for Abstract Alias Mapping"
   homepage "https://aam.ininids.in.rs/"
   version "0.1.1"
