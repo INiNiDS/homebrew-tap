@@ -13,16 +13,16 @@ class AamCli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/ininids/aam-cli/releases/download/v#{version}/aam-macos-arm64"
-      sha256 "05eac0dfa204240f8f6ab62f43d953644c9d623aa1f1d3899b806efae298d14a"
+      sha256 "5defd5f668fd21cc723a0a6833e158f796a4786c7e764aca000ee73eed84fabd"
     else
       url "https://github.com/ininids/aam-cli/releases/download/v#{version}/aam-macos-amd64"
-      sha256 "9e38322163236a0af14d0b023d2b5ae1fefe00521d2e582a1c5c38b8416af74f"
+      sha256 "d2e98ea4942718e65d62f1e142207df936814902a051c632af9bf05d3c156532"
     end
   end
 
   if OS.linux?
     url "https://github.com/ininids/aam-cli/releases/download/v#{version}/aam-linux-amd64"
-    sha256 "f0c6b87c1b53cb3aefd03ae18c25484ca981d500868e9440ed2cf5984d0f4bc3"
+    sha256 "0de40c608af1b94ee3cd1f4eab23c309111aee5380e954ddec2e1d95401e39f8"
   end
 
   def install
