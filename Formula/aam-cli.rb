@@ -7,7 +7,7 @@
 class AamCli < Formula
   desc "Powerful and intuitive CLI for Abstract Alias Mapping"
   homepage "https://aam.ininids.in.rs/"
-  version "0.2.0"
+  version "0.2.1"
   license "GPL-3.0-or-later"
 
   if OS.mac?
